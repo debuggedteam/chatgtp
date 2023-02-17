@@ -293,3 +293,29 @@ textarea {
   outline: none;
   height: auto !important;
 }*/
+@media  screen and (max-width:767px) {
+  .meu_items {
+    display: none;
+}
+
+#app {
+    padding: 0 10px;
+}
+
+form {
+    max-width: 100%;
+}
+#chat_container {
+  max-width: 100%;
+}
+
+.ai .message {
+  font-size: 13px;
+}
+.brank-link img {
+  max-width: 199px;
+}
+.message {
+  font-size: 16px;
+} 
+}
