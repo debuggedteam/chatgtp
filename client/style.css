@@ -181,7 +181,7 @@ form img {
   max-width: 1170px;
   width: 100%;
   display: block;
-  padding: 40px 0;
+  padding: 30px 0;
   margin: auto;
 }
 
@@ -202,98 +202,7 @@ button.btn-login {
   color: #fff;
 }
 
-/* THIS IS NEW LAYOUR CSS 
-#app {
-  width: 100vw;
-  height: 100vh;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px;
-}
-#chat_container {
-  flex: 1;
-  width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  display: inline-block;
-  flex-direction: column;
-  gap: 10px;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  padding-bottom: 20px;
-  scroll-behavior: smooth;
-  max-width: 63%;
-  padding: 20px;
-}
-.wrapper {
-  display: flex;
-  align-items: flex-end;
-  padding: 14px;
-  width: 65%;
-  height: auto;
-  background: #fff;
-  border-radius: 10px;
-  float: left;
-  margin-bottom: 15px;
-  box-shadow: 0 0 20px #0000001a;
-}
-.profile {
-  width: 36px;
-  height: 36px;
-  border-radius: 100%;
-  background: #5436DA;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.message {
-  flex: 1;
-  color: #000;
-  font-size: 20px;
-  max-width: 100%;
-  overflow-x: scroll;
-  white-space: pre-wrap;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.ai {
-  width: 65%;
-  height: auto;
-  background: #e40067;
-  border-radius: 15px;
-  justify-self: unset;
-  float: right;
-}
-.ai .message {
-  color: #fff;
-}
-form {
-  width: 100%;
-  max-width: 61%;
-  margin: 0 auto;
-  padding: 10px;
-  background: #ffff;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 10px;
-  border: 1px solid #ccc;
-}
-textarea {
-  width: 100%;
-  color: #000;
-  font-size: 18px;
-  padding: 10px;
-  background: transparent;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  height: auto !important;
-}*/
-@media  screen and (max-width:767px) {
+@media  screen and (max-width:768px) {
   .meu_items {
     display: none;
 }
@@ -304,6 +213,7 @@ textarea {
 
 form {
     max-width: 100%;
+    margin-bottom: 20px;
 }
 #chat_container {
   max-width: 100%;
